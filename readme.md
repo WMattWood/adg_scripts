@@ -17,19 +17,19 @@ My Devices Folder/
     └── clap.wav
 ```
 
-In this example, you could call `./backpack.sh "Drum Rack.adg" "drum_samples"`  
-and all samples referenced in the Drum Rack will now be expected to be found  
+In this example, you could call `./backpack.sh "Drum Rack.adg" "drum_samples"`    
+and all samples referenced in the Drum Rack will now be expected to be found   
 in the `drum_samples` folder.  The script will create a copy of the original  
 .adg file with a **_patched** suffix.
 
 ## backpack.sh 
-Usage: `./backpack.sh "Super 909 Kit.adg" "909 Drums"`
+Usage: `./backpack.sh "Super 909 Kit.adg" "909 Drums"`  
 Fully automates unpack → smart flatten SampleRef paths → repack
 
 ## unpack_adg.sh
-Usage: `./unpack_adg.sh "Super 909 Kit.adg"`
+Usage: `./unpack_adg.sh "Super 909 Kit.adg"`  
 Copies, renames, and unzips an Ableton .adg into an editable .xml
 
 ## repack_adg.sh
-Usage: `./repack_adg.sh "Super 909 Kit.xml"`
+Usage: `./repack_adg.sh "Super 909 Kit.xml"`  
 Compresses the edited .xml back into a valid Ableton .adg
