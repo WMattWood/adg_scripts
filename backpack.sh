@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./flatten_adg_smart.sh "Mars 909 Kit.adg" "909 HI"
+# Usage: ./backpack.sh "Mars 909 Kit.adg" "909 HI"
 # Fully automates unpack → smart flatten SampleRef paths → repack
 
 set -euo pipefail
