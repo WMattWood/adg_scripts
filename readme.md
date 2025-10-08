@@ -1,4 +1,11 @@
 # adg_scripts
+
+Scripts will probably need to be given execution permissions to be usable :
+
+`$ chmod +x unpack_adg.sh`  
+`$ chmod +x repack_adg.sh`  
+`$ chmod +x backpack.sh` 
+
 Ableton Live saves device racks as **.adg** files.  These sometimes reference audio  
 samples, and re-mapping the references manually within Ableton Live can be time  
 consuming.  This set of scripts allows unpacking the .adg so you can view and  
@@ -23,13 +30,13 @@ in the `drum_samples` folder.  The script will create a copy of the original
 .adg file with a **_patched** suffix.
 
 ## backpack.sh 
-Usage: `./backpack.sh "Super 909 Kit.adg" "909 Drums"`  
+Usage : `./backpack.sh "Super 909 Kit.adg" "909 Drums"`  
 Fully automates unpack → smart flatten SampleRef paths → repack
 
 ## unpack_adg.sh
-Usage: `./unpack_adg.sh "Super 909 Kit.adg"`  
+Usage : `./unpack_adg.sh "Super 909 Kit.adg"`  
 Copies, renames, and unzips an Ableton .adg into an editable .xml
 
 ## repack_adg.sh
-Usage: `./repack_adg.sh "Super 909 Kit.xml"`  
+Usage : `./repack_adg.sh "Super 909 Kit.xml"`  
 Compresses the edited .xml back into a valid Ableton .adg
